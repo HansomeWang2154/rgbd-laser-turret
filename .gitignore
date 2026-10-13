@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Runtime output and local captures
+offline_images/
+saved_images/
+outputs/
+logs/
+
+# Large model files are downloaded separately
+weights/
+*.pth
+*.pt
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+
